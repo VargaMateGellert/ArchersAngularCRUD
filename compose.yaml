@@ -1,0 +1,11 @@
+services:
+  html:
+    build: . 
+    ports:
+      - "4200:80"
+    depends_on:
+      - json-server
+  json-server:
+    build: ./json-server
+    ports:
+      - "3000:3000"

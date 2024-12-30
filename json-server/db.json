@@ -1,0 +1,116 @@
+{
+  "archers": [
+    {
+      "name": "Brady Ellison",
+      "birth_date": "1988-10-27",
+      "nationality": "Amerikai",
+      "bow_type": "Reflex",
+      "coach_name": "Kisik Lee",
+      "id": "1"
+    },
+    {
+      "name": "Lisa Barbelin",
+      "birth_date": "2000-04-18",
+      "nationality": "Francia",
+      "bow_type": "Reflex",
+      "coach_name": "Maxime Bayle",
+      "id": "2"
+    },
+    {
+      "name": "Kim Woo-jin",
+      "birth_date": "1992-06-20",
+      "nationality": "Koreai",
+      "bow_type": "Reflex",
+      "coach_name": "Oh Seon-Tek",
+      "id": "3"
+    },
+    {
+      "name": "Deepika Kumari",
+      "birth_date": "1994-06-13",
+      "nationality": "Indiai",
+      "bow_type": "Reflex",
+      "coach_name": "Mim Bahadur Gurung",
+      "id": "4"
+    },
+    {
+      "name": "Sara López",
+      "birth_date": "1995-04-24",
+      "nationality": "Kolumbiai",
+      "bow_type": "Csigás",
+      "coach_name": "Heber Mantilla",
+      "id": "5"
+    },
+    {
+      "name": "Mike Schloesser",
+      "birth_date": "1993-01-15",
+      "nationality": "Holland",
+      "bow_type": "Csigás",
+      "coach_name": "Ron van der Hoff",
+      "id": "6"
+    },
+    {
+      "name": "An San",
+      "birth_date": "2001-02-27",
+      "nationality": "Koreai",
+      "bow_type": "Reflex",
+      "coach_name": "Kim Sung-eun",
+      "id": "7"
+    },
+    {
+      "name": "Gellenthien Braden",
+      "birth_date": "1986-04-26",
+      "nationality": "Amerikai",
+      "bow_type": "Csigás",
+      "coach_name": "Derek Davis",
+      "id": "8"
+    },
+    {
+      "name": "Tanja Gellenthien",
+      "birth_date": "1994-09-17",
+      "nationality": "Dán",
+      "bow_type": "Csigás",
+      "coach_name": "Martin Damsbo",
+      "id": "9"
+    },
+    {
+      "name": "Lei Chien-Ying",
+      "birth_date": "1990-04-17",
+      "nationality": "Tajvani",
+      "bow_type": "Reflex",
+      "coach_name": "Shih Chien",
+      "id": "10"
+    },
+    {
+      "name": "Steve Wijler",
+      "birth_date": "1996-09-19",
+      "nationality": "Holland",
+      "bow_type": "Reflex",
+      "coach_name": "Ron van der Hoff",
+      "id": "11"
+    },
+    {
+      "name": "Marcella Tonioli",
+      "birth_date": "1986-05-31",
+      "nationality": "Olasz",
+      "bow_type": "Csigás",
+      "coach_name": "Giuseppe Seimandi",
+      "id": "12"
+    },
+    {
+      "name": "Chang Hye-Jin",
+      "birth_date": "1987-05-13",
+      "nationality": "Koreai",
+      "bow_type": "Reflex",
+      "coach_name": "Oh Seon-Tek",
+      "id": "13"
+    },
+    {
+      "name": "Stephan Hansen",
+      "birth_date": "1995-10-04",
+      "nationality": "Dán",
+      "bow_type": "Csigás",
+      "coach_name": "Martin Damsbo",
+      "id": "14"
+    }
+  ]
+}

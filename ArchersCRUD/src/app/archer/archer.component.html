@@ -1,0 +1,49 @@
+@if (model) {
+  <div class="modal" tabindex="-1" style="display: block;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Adatok rögzítése</h5>
+                <button type="button" class="btn-close" (click)="model = undefined"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                          <label for="name" class="form-label">Név</label>
+                          <input type="text" class="form-control" id="name"
+                          [value]="model.name" (change)="model.name = getValue($event)">
+                      </div>
+                      <div class="mb-3">
+                          <label for="birthDate" class="form-label">Születési dátum</label>
+                          <input type="date" class="form-control" id="birthDate"
+                          [value]="model.birth_date" (change)="model.birth_date = getValue($event)">
+                      </div>
+                      <div class="mb-3">
+                          <label for="nationality" class="form-label">Nemzetiség</label>
+                          <input type="text" class="form-control" id="nationality"
+                          [value]="model.nationality" (change)="model.nationality = getValue($event)">
+                      </div>
+                      <div class="mb-3">
+                          <label for="bowType" class="form-label">Íj típus</label>
+                          <select class="form-select" id="bowType"
+                          [value]="model.bow_type" (change)="model.bow_type = getValue($event)">
+                              <option selected>Válassz...</option>
+                              <option value="Reflex">Reflex</option>
+                              <option value="Csigás">Csigás</option>
+                          </select>
+                      </div>
+                      <div class="mb-3">
+                          <label for="coachName" class="form-label">Edző neve</label>
+                          <input type="text" class="form-control" id="coachName"
+                          [value]="model.coach_name" (change)="model.coach_name = getValue($event)">
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" (click)="model = undefined">Mégsem</button>
+                <button type="button" class="btn btn-success" (click)="save()">Mentés</button>
+              </div>
+            </div>
+          </div>
+  </div>
+}

@@ -1,0 +1,4 @@
+json-server/**/*
+json-server
+Dockerfile
+compose.yaml

@@ -1,0 +1,31 @@
+<div class="container">
+  <h1 class="text-center mb-3">Íjászok listája</h1>
+  <table class="table table-hover table-bordered">
+      <tr class="text-center">
+          <th>
+              <span (click)="newArcher()">&#10010;</span>
+          </th>
+          <th>Név</th>
+          <th>Születési dátum</th>
+          <th>Nemzetiség</th>
+          <th>Íj típus</th>
+          <th>Edző neve</th>
+      </tr>
+      @for (archer of archers; track $index) {
+        <tr class="text-center">
+            <td>
+                <span (click)="modifyArcher(archer)">&#9998;</span>
+                <span (click)="deleteArcher(archer)">&#10008;</span>
+            </td>
+            <td>{{archer.name}}</td>
+            <td>{{archer.birth_date}}</td>
+            <td>{{archer.nationality}}</td>
+            <td>{{archer.bow_type}}</td>
+            <td>{{archer.coach_name}}</td>
+        </tr>
+      }
+  </table>
+</div>
+
+<app-archer [model]="modify" (saved)="saveModified($event)"></app-archer>
+<app-archer [model]="new" (saved)="saveNew($event)"></app-archer>
